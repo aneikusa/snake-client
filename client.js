@@ -20,10 +20,10 @@ const connect = function () {
     conn.write(`Name: S.A`);
   })
 
-  conn.on("Move: up", () => {
-    console.log("Move: up");
-    conn.write(`Move: up`);
-  })
+  // conn.on("Move: up", () => {
+  //   console.log("Move: up");
+  //   conn.write(`Move: up`);
+  // })
 
   return conn;
 };
